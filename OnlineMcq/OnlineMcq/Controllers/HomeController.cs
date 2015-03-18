@@ -10,7 +10,7 @@ namespace OnlineMcq.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "Modify ";
+            ViewBag.Message = "Modify jjjj";
 
             return View();
         }
