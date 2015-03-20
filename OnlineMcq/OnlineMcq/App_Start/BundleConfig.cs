@@ -27,6 +27,7 @@ namespace OnlineMcq
             bundles.Add(new StyleBundle("~/Content/css").Include("~/Content/site.css",
                 "~/Content/bootstrap.css",
                 "~/Content/bootstrap.css.map",
+                 "~/Content/uikit.min.css",
                 "~/Content/bootstrap-theme.css",
                 "~/Content/bootstrap-theme.css.map"
                 
