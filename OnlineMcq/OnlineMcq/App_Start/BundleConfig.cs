@@ -17,6 +17,7 @@ namespace OnlineMcq
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
                         "~/Scripts/jquery.unobtrusive*",
                           "~/Scripts/bootstrap.js",
+                            "~/Scripts/bootstrap.min.js",
                         "~/Scripts/jquery.validate*"));
 
             // Use the development version of Modernizr to develop with and learn from. Then, when you're
@@ -26,10 +27,9 @@ namespace OnlineMcq
 
             bundles.Add(new StyleBundle("~/Content/css").Include("~/Content/site.css",
                 "~/Content/bootstrap.css",
-                "~/Content/bootstrap.css.map",
-                 "~/Content/uikit.min.css",
-                "~/Content/bootstrap-theme.css",
-                "~/Content/bootstrap-theme.css.map"
+             
+                 "~/Content/uikit.min.css"
+               
                 
                 ));
 
